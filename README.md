@@ -1,16 +1,13 @@
-# app_drop
+# AppDrop - Dynamic Widget Rendering Engine (Flutter)
 
-A new Flutter project.
+## Overview
+This Flutter project implements a small "schema → UI" engine: a Flutter app that renders an entire page from a JSON description. It supports:
+- Image Banner
+- Image Carousel
+- Image Grid
+- Video Player
+- Text Block
 
-## Getting Started
+All UI is generated from JSON; there is no hardcoded layout.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project structure
