@@ -1,0 +1,63 @@
+{
+  "page": {
+    "components": [
+      {
+        "type": "banner",
+        "image": "https://picsum.photos/1200/400?image=1050",
+        "height": 180,
+        "padding": 16,
+        "radius": 12
+      },
+      {
+        "type": "text",
+        "value": "Welcome to AppDrop",
+        "size": 22,
+        "font": "Roboto",
+        "weight": "bold",
+        "align": "center",
+        "padding": 12
+      },
+      {
+        "type": "carousel",
+        "images": [
+          "https://picsum.photos/800/400?image=1011",
+          "https://picsum.photos/800/400?image=1025",
+          "https://picsum.photos/800/400?image=1032"
+        ],
+        "height": 220,
+        "autoPlay": true,
+        "padding": 12,
+        "spacing": 8
+      },
+      {
+        "type": "grid",
+        "images": [
+          "https://picsum.photos/300/300?image=1060",
+          "https://picsum.photos/300/300?image=1061",
+          "https://picsum.photos/300/300?image=1062",
+          "https://picsum.photos/300/300?image=1063"
+        ],
+        "columns": 2,
+        "spacing": 8,
+        "padding": 16
+      },
+      {
+        "type": "video",
+        "url": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+        "autoPlay": false,
+        "loop": false,
+        "height": 220,
+        "padding": 12
+      },
+      {
+        "type": "text",
+        "value": "Thank you for checking the demo. Adjust JSON to change UI!",
+        "size": 16,
+        "font": "Roboto",
+        "weight": "normal",
+        "align": "left",
+        "padding": 16
+      }
+    ]
+  }
+}
